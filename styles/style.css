@@ -15,13 +15,13 @@ html, body{
 }
 
 .turnBlue{
-    background-color: rgb(40, 29, 134);
+    background-color: #281d86;
 }
 
 .gameBoard{
-    border: 2px solid rgb(6, 63, 4);
+    border: 2px solid #063f04;
     border-radius: 8px;
-    background-color: rgb(50, 78, 50);
+    background-color: #324e32;
 }
 
 
