@@ -1,0 +1,27 @@
+html, body{
+    background-color: rgb(145, 145, 145);
+}
+
+.gameBtn {
+    background-color: rgb(199, 199, 199);
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+}
+
+.turnRed{
+    background-color: #861313;
+}
+
+.turnBlue{
+    background-color: rgb(40, 29, 134);
+}
+
+.gameBoard{
+    border: 2px solid rgb(6, 63, 4);
+    border-radius: 8px;
+    background-color: rgb(50, 78, 50);
+}
+
+
