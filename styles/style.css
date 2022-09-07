@@ -2,8 +2,15 @@ html, body{
     background-color: rgb(145, 145, 145);
 }
 
+.resetbutton {
+    background-color:#ced4da;
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+}
+
 .gameBtn {
-    background-color: #fafafa;
+    background-color: #ced4da;
     height: 70px;
     width: 70px;
     border: none;
@@ -19,9 +26,10 @@ html, body{
 }
 
 .gameBoard{
-    border: 2px solid #063f04;
-    border-radius: 8px;
-    background-color: #324e32;
+    border: 3px solid #0b7285;
+    border-radius: 14px;
+    background-color: #0c8599;
+    padding: 20px 40px;
 }
 
 
