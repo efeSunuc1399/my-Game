@@ -22,12 +22,24 @@ html, body{
     border-radius: 50%;
 }
 
-.turnRed{
-    background-color: #861313;
+.btn:hover{
+    color: #1098ad;
+    background-color: #dee2e6;
 }
 
-.turnBlue{
+/* this class ic created for disabling hover effect */
+.no-hover {
+    pointer-events:none;
+}
+
+/* Blue color is reserved for player 1 only */
+.player-1-color{
     background-color: #281d86;
+}
+
+/* Red color is reserved for player 2 only */
+.player-2-color{
+    background-color: #861313;
 }
 
 .gameBoard{
@@ -35,6 +47,51 @@ html, body{
     border-radius: 14px;
     background-color: #0c8599;
     padding: 20px 40px;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);
 }
+
+/* player box */
+
+.player-box{
+    height: 100px;
+    color: #ced4da;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 14px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.player-1-box{
+    background-color: #281d86;
+}
+
+.player-2-box{
+    background-color: #861313;
+}
+
+.btn-reset-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-reset{
+    height: 100px;
+    width: 60%;
+
+    background-color: #ced4da;
+    color: #0b7285;
+    font-size: 26px;
+    font-weight: 500;
+
+    padding: 0.375rem 0.75rem 0.67rem 0.75rem;
+}
+
+
 
 
