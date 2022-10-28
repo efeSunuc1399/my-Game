@@ -1,5 +1,6 @@
 html, body{
     background-color: rgb(145, 145, 145);
+    background-image: url(/styles/HeadedHomeGameBackground.jpg);
 }
 
 .resetbutton {
